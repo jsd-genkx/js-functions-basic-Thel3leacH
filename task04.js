@@ -18,6 +18,39 @@ Task 04: Traffic Light Action
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
 
+// Arrow Function
+// const trafficLightAction = (color) => {
+//     switch (color) {
+//         case "Green":
+//             return "Go";
+//         case "yellow":
+//             return "Slow down";
+//         case "red":
+//             return "Stop";
+//         default:
+//             return "Invalid light color";
+//     }
+// };
+
+// Declaration Function
+function trafficLightAction(color) {
+  let message = "";
+  switch (color) {
+    case "green":
+      message = "Go";
+      break;
+    case "yellow":
+      message = "Slow down";
+      break;
+    case "red":
+      message = "Stop";
+      break;
+    default:
+      message = "Invalid light color";
+  }
+  return message;
+}
+
 // Example Test Cases
 console.log(trafficLightAction("green")); // "Go"
 console.log(trafficLightAction("yellow")); // "Slow down"

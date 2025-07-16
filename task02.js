@@ -27,9 +27,13 @@ Task 02: Check Even or Odd
 
 // Solution 2 : Arrow Function
 
-const checkEvenOrOdd = (number) => {
-    return number % 2 === 0 ? "Even" : "Odd";  // ternary operation
-};
+// const checkEvenOrOdd = (number) => {
+//     return number % 2 === 0 ? "Even" : "Odd";  // ternary operation with { }
+// };
+
+// Solution 3
+
+// const checkEvenOrOdd = (number) => number % 2 === 0 ? "Even" : "Odd";  // ternary operation no {} and return
 
 // Example Test Cases
 console.log(checkEvenOrOdd(4)); // "Even"
