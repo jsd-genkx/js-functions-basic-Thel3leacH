@@ -18,6 +18,19 @@ Task 03: FizzBuzz Checker
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
 
+// Arrow Function
+const fizzBuzz = (number) => {
+    if (number % 3 === 0 && number % 5 === 0) {
+        return "FizzBuzz";
+    } else if (number % 3 === 0) {
+        return "Fizz";
+    } else if (number % 5 === 0) {
+        return "Buzz";
+    } else {
+        return "Not divisible by 3 or 5";
+    }
+};
+
 // Example Test Cases
 console.log(fizzBuzz(15)); // "FizzBuzz"
 console.log(fizzBuzz(9)); // "Fizz"
